@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncomingFeed>
+  <Fields count="7" delimeter=",">
+    <Field name="Timestamp" type ="int"/>
+    <Field name="Ticker" type ="string"/>
+    <Field name="Bid" type ="doule"/>
+    <Field name="BidSize" type ="double"/>
+    <Field name="Ask" type ="double"/>
+    <Field name="AskSize" type ="double"/>
+    <Field name="Volume" type ="int"/>
+  </Fields>
+  <FeedFile>A:\Learning\C++\Work\ReportGenerator\marketdata.csv</FeedFile>
+</IncomingFeed>
+  

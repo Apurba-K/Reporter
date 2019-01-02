@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OutgoingFeed>
+  <Fields count="6" delimeter=",">
+    <Field name="Ticker" type ="string" />
+    <Field name="MaxSpread" type ="double" Header="Max of (Ask - Bid)" />
+    <Field name="MinSpread" type ="double" Header="Min of (Ask -Bid)" />
+    <Field name="SumVolume" type ="int" Header="Sum(Volume)" />
+    <Field name="MaxTimeDiff" type ="int" Header="Max Timestamp difference between consecutive quote for a ticker" />
+    <Field name="Ratio" type ="double" Header="Sum(Bid*AskSize + Ask*BidSize)/Sum(AskSize+BidSize)" />
+  </Fields>
+  <FeedFile>A:\Learning\C++\Work\ReportGenerator\outgoing.csv</FeedFile>
+<PreperatorThread>4</PreperatorThread>
+ </OutgoingFeed>

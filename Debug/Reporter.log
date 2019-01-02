@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  appRowFactory.cpp
+  feedMetaData.cpp
+  Reporter.cpp
+  reportWriter.cpp
+  tickerReportLogic.cpp
+  tinyxml2.cpp
+  Generating Code...
+  Reporter.vcxproj -> A:\Learning\C++\Work\ReportGenerator\Reporter\Debug\Reporter.exe
