@@ -1,0 +1,41 @@
+
+
+TestCase for FeedMetaData :
+1. Should be able to read MetaData information for any feed :
+  1.1 Sequence of fields
+  1.2 Different field name and type
+  1.3 delimeter between fields
+  1.4 Count of fields
+  1.5 Header specific to fields
+  1.6 Threads to be utilised for preparation of the feed
+  
+TestCase for InComingRowFactory:
+1. Can Read Feed File with no data
+2. Can Read Feed File with all valid data
+3. Can Read Feed File with few blank line 
+4. Can Read Feed File with mix of blank and valid line
+5. Can Read Feed File with few line not having all required fields as specified in metadata
+6. Can read data from feed file based on specified delimeter in metadata
+
+TestCase for TIckerRowFactory:
+1. Should be able to store ticker data to storage specific to ticker
+
+TestCase for Spread :
+1. Should be able to calculate maxSpread, minSpread from ticker specific data.
+
+TestCase for SumVolume :
+1. Should be able to calculate total volume from ticker specific data.
+
+TestCase for MaxTimeDiff :
+1. Should be able to calculate maximum of time difference between two consecutive data of same ticker.
+
+TestCase for TickerReportRowFactory:
+1. Should be able to produce all row comprising all fields specific to final report
+
+TestCase for ReportWriter:
+1. Should be able to write report file with report comprising all fields as specified in metadata
+2. Should be able to write report file with proper headers as specified in metadata
+3. Should be able to write report file with proper delimeter as specified in metadata
+4. Should be able to write report file with specific name as specified in metadata
+
+
